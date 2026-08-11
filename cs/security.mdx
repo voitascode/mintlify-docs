@@ -1,0 +1,31 @@
+---
+title: "Bezpečnost webu"
+---
+
+<iframe src="https://www.loom.com/embed/8bf6602d46fd4459b04ce8f7f4394ee0" title="Loom video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+
+<Info>
+  Podívejte se na [bezpečnostní checklist](/cs/security-checklist)
+</Info>
+
+Kdy jste naposledy přemýšleli o bezpečnosti svého webu?
+
+Pokud jste jako většina marketérů, upřímná odpověď zní: když se něco naposledy rozbilo. Jak to říká Josh v našem videu — bezpečnost je jako pojištění. Snadno se ignoruje, je až nudná, dokud vám ze stropu neteče voda od sousedů. Pak je to jediné, co řešíte.
+
+A teď to nepříjemné: pokud děláte marketing, ten web je nejspíš _váš_. Ne ajťáků, ne agentury — váš. Zdědili jste ho spolu s přihlašovacími údaji do CMS, pluginy, které tam někdo v roce 2021 nainstaloval, a mlhavým pocitem, že „to řeší agentura". Nikdo vás na to nepřipravil. Ale když web spadne, někdo ho přepíše nebo se najednou umisťuje na klíčová slova o kasinech, je to vaše návštěvnost, vaše leady a vaše jméno na pondělní poradě.
+
+Pojďme se tedy podívat, co se venku doopravdy děje — a pak vám dáme checklist, který zvládnete za jedno odpoledne a bez technických znalostí.
+
+### Stav webové bezpečnosti v číslech
+
+**Útočníci jsou rychlejší než vaše rutina aktualizací.** Když se zveřejní nová zranitelnost, medián času, než ji někdo zneužije, je **5 hodin** (Patchstack, 2026). Útočníci po ní začnou skenovat zhruba do 15 minut. Pokud se váš web aktualizuje „jednou za měsíc, když si někdo vzpomene", nejste ve hře.
+
+**Problém není WordPress — problém je všechno, co je na něj naroubované.** Jen v roce 2025 zaznamenali výzkumníci **11 334 nových zranitelností** v ekosystému WordPressu. Pouze šest z nich bylo v jádru WordPressu. **91 % bylo v pluginech** — cizí kód, udržovaný podle cizího harmonogramu, přesně jak Josh říká ve videu. A hůř: **46 % těch zranitelností nemělo v okamžiku zveřejnění k dispozici opravu**. A není to jen teoretická nedbalost — zhruba **7 z 10 veřejných WordPress webů** neběží na podporované verzi jádra (Censys, 2026). Weby s 20\+ pluginy mají 3× vyšší pravděpodobnost nákazy. Skutečná otázka tedy nezní „je WordPress bezpečný?". Je to ta z videa: _kdo vám aktualizuje pluginy? Čí jméno je za to podepsané?_
+
+**„Náš malý custom CMS by nikdo neřešil" je mýtus.** Váš CMS na míru od agentury neproklouzává pod radarem, protože žádný radar neexistuje. Útoky nejsou osobní — jsou automatizované. Nově vystavený web objeví škodlivé skenery do **3 minut** (Orca Security). Přes **polovinu veškerého webového provozu tvoří boti** a 37 % _celkového_ internetového provozu jsou škodliví boti (Imperva, 2025). Rozdíl je v tom, že chyby ve WordPressu najde a opraví celosvětová komunita. Váš custom CMS nemá žádná bezpečnostní upozornění, žádný kanál pro opravy a — statisticky vzato — nikdy nebyl testovaný: bezpečnostní testování vůbec provádí jen asi třetina evropských firem (Eurostat). Bezpečnost skrze utajení je natolik známá past, že má vlastní oficiální identifikátor slabiny (CWE-656).
+
+**Většina vloupání jde předními dveřmi.** Zapomeňte na hollywoodské hackování: **88 % průniků do webových aplikací zahrnuje ukradené přihlašovací údaje** (Verizon DBIR, 2025). A jakmile jsou uvnitř, zabydlí se — u **55 % napadených webů** se našel administrátorský účet, který majitel nikdy nevytvořil (Sucuri). Mezitím si bývalí zaměstnanci a bývalé agentury v tichosti drží přístupy roky.
+
+**Když se to pokazí, firmy selhávají hlavně při obnově.** 92 % firem tvrdí, že má zálohy. **31 % je ve chvíli, kdy na tom záleží, nedokáže obnovit** (data z pojistných událostí At-Bay). Jen 27 % lidí, kteří se starají o weby, má vůbec nějaký plán obnovy po incidentu. A v kontextu evropské regulace jde o reálné sázky: British Airways dostaly pokutu **20 milionů liber** poté, co jim někdo vložil kód do jejich vlastního webu. Ticketmaster zaplatil 1,25 milionu liber za kompromitovaného chatbota na platební stránce. 23andMe zaplatilo 2,31 milionu liber za to, že umožnilo credential stuffing bez povinného dvoufaktorového ověření. Když teď NIS2 v řadě odvětví dopadá na firmy od 50 zaměstnanců výš, „nevěděli jsme" už není strategie — 59 % evropských malých a středních firem zasáhl kybernetický útok za posledních 12 měsíců (Hiscox, 2025).
+
+Nic z toho neznamená, že je váš web odsouzený k záhubě. Znamená to, že váš web potřebuje _majitele_. Pojďme zjistit, jak na tom je ten váš.

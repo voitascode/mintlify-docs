@@ -1,0 +1,52 @@
+---
+title: "Bezpečnostní checklist"
+---
+
+### Bezpečnostní checklist pro marketéry
+
+Odpovídejte upřímně. **„Nevím" se počítá jako ne** — v bezpečnosti je to, že něco nevíte, samo o sobě nález. Nepotřebujete technické znalosti; kde si nedokážete odpovědět sami, přepošlete otázku agentuře nebo IT a zhodnoťte, jak jistě odpověď zní.
+
+#### Oblast 1: Software a údržba — _kdo vlastní váš kód?_
+
+- [ ] Dokážu jmenovat konkrétního člověka nebo firmu odpovědnou za aktualizace našeho webu — a oni by souhlasili, že je to jejich práce.
+- [ ] Aktualizace probíhají podle daného harmonogramu (nebo automaticky), ne „když si někdo vzpomene". _(Medián času do zneužití: 5 hodin.)_
+- [ ] Máme aktuální seznam všech pluginů a rozšíření na webu a žádný z nich není vývojářem opuštěný.
+- [ ] Každá šablona a plugin byly pořízené z oficiálního zdroje s platnou licencí. _(Nelegální „nulled" software stál za 17 % všech nákaz WordPressu.)_
+- [ ] Naše verze PHP / platformy je aktuálně podporovaná — někdo to ověřil za posledních 6 měsíců.
+- [ ] Pokud náš web běží na custom CMS: za poslední rok dostal bezpečnostní aktualizaci a vím, co opravovala.
+- [ ] Náš web alespoň jednou bezpečnostně otestovala nezávislá strana (ne ti, kdo ho stavěli).
+- [ ] Nikdo mi nikdy neodpověděl na bezpečnostní otázku slovy „je to na míru, takže to hackeři neznají".
+
+#### Oblast 2: Přístupy a vlastnictví — _kdo drží klíče?_
+
+- [ ] Dokážu vyjmenovat všechny, kdo se umí přihlásit do našeho CMS, hostingu a registrátora domény — a u každého zdůvodnit proč.
+- [ ] Všem bývalým zaměstnancům a bývalým agenturám byl přístup odebrán. Ověřil jsem to, nepředpokládám to.
+- [ ] Každý má vlastní přihlášení. Žádný sdílený účet „marketing@" s heslem v tabulce.
+- [ ] Dvoufaktorové ověření je vynucené na CMS, hostingu i u registrátora domény. _(88 % průniků do webových aplikací využívá ukradená hesla.)_
+- [ ] Administrátorská práva mají jen ti, kdo je opravdu potřebují — editoři obsahu jsou editoři, ne administrátoři.
+- [ ] Vím přesně, kdo spravuje účet u registrátora domény, kdy je datum obnovy a že obnovovací e-mail je sledovaná schránka.
+- [ ] Doménu, hostingový účet a kopii zdrojového kódu nebo exportu webu vlastníme my (firma, ne agentura).
+- [ ] Naše smlouva s agenturou skutečně zmiňuje bezpečnost: doby reakce, hlášení incidentů, zálohy a co se stane, když se rozejdeme.
+
+#### Oblast 3: Ochrana a obnova — _co se stane v ten nejhorší den?_
+
+- [ ] Náš web je za ochrannou vrstvou (CDN/WAF jako Cloudflare) — není vystavený přímo do internetu. _(37 % veškerého provozu tvoří škodliví boti.)_
+- [ ] Naše formuláře mají ochranu proti spamu a skutečné leady se neztrácejí mezi odeslanými roboty.
+- [ ] Zálohy běží automaticky a ukládají se jinam než na stejný server jako web.
+- [ ] Někdo za poslední rok provedl **testovací obnovu** — víme, že záloha opravdu funguje. _(31 % z nich selže, když na tom záleží.)_
+- [ ] Někdo je upozorněn dřív, než vyprší náš SSL certifikát nebo doména — systémem, ne po paměti.
+- [ ] Něco nebo někdo sleduje náš web kvůli malwaru, přepsání obsahu a zařazení na blocklist Googlu. _(93 % nakažených webů vyhledávače nikdy neoznačí.)_
+- [ ] Máme jednostránkový plán pro prvních 24 hodin po napadení: komu voláme, kdo web vypne, kdo koho informuje.
+- [ ] Vedení vidělo náš bezpečnostní stav alespoň jednou — je to byznysové téma, ne skrytá marketingová povinnost.
+
+#### Vaše skóre
+
+Spočítejte svá „ne" a „nevím". **0–3:** Dobré — jste napřed před většinou firem; zavřete mezery a dejte si roční revizi do kalendáře. **4–8:** Riskujete — jedete na štěstí; vyberte tři nejděsivější „ne" a tento týden každému přiřaďte konkrétního majitele. **9\+:** Jste vystavení — nepanikařte, ale berte to jako projekt s termínem. Dobrá zpráva: teď máte přesný seznam toho, co opravit, což je víc, než většina firem kdy dostane.
+
+### Závěrem
+
+Tenhle checklist ve skutečnosti neměří technologie, ale _vlastnictví_. Každé „ne", které jste napočítali, je otázka bez jména. To se dá spravit — a spravit to znamená hlavně schůzky a rozhodnutí, ne kód.
+
+V Expiriu jsme to pro sebe vyřešili tak, že jsme problém odstranili místo toho, abychom ho spravovali: stavíme na Webflow, kde není co zabezpečovat na serverech ani co aktualizovat na pluginech, a Cloudflare filtruje boty dřív, než se k webu vůbec dostanou. Nemusíte zítra měnit platformu — stačí, když víte, jak na tom jste. A to teď víte.
+
+Pokud jste to ještě neudělali, pusťte si Joshovo video, které k tomuhle článku patří. Pošlete svoje „ne" tomu, kdo se stará o váš web, a položte jednu otázku: _čí jméno je za tímhle podepsané?_ A jestli chcete jít do hloubky — na podzim pořádáme čtyři praktické workshopy pro marketingové týmy. Tohle je první díl toho, proč Expirio Insights existuje: znalosti, které vám k té práci nikdo nedal.

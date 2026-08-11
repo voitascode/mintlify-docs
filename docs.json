@@ -26,23 +26,52 @@
         }
       ]
     },
-    "pages": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index"
+        "language": "en",
+        "default": true,
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security",
+              "security-checklist"
+            ]
+          },
+          {
+            "group": "More",
+            "pages": [
+              "untitled-page-4",
+              "untitled-page-5",
+              "untitled-page-6"
+            ]
+          }
         ]
       },
       {
-        "group": "Security",
-        "pages": [
-          "security",
-          "security-checklist"
+        "language": "cs",
+        "groups": [
+          {
+            "group": "Začínáme",
+            "pages": [
+              "cs/index"
+            ]
+          },
+          {
+            "group": "Bezpečnost",
+            "pages": [
+              "cs/security",
+              "cs/security-checklist"
+            ]
+          }
         ]
-      },
-      "untitled-page-4",
-      "untitled-page-5",
-      "untitled-page-6"
+      }
     ]
   },
   "logo": {
