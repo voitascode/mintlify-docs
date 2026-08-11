@@ -25,17 +25,17 @@
     },
     "groups": [
       {
-        "group": "Security",
-        "pages": [
-          "untitled-page"
-        ]
-      },
-      {
         "group": "Getting Started",
         "pages": [
           "index",
           "untitled-page-2",
           "quickstart"
+        ]
+      },
+      {
+        "group": "Security",
+        "pages": [
+          "untitled-page"
         ]
       }
     ]
