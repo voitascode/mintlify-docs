@@ -10,6 +10,13 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
+      "untitled-page-2",
+      {
+        "group": "Security",
+        "pages": [
+          "untitled-page"
+        ]
+      },
       {
         "group": "Getting Started",
         "pages": [
@@ -31,21 +38,7 @@
           "icon": "newspaper"
         }
       ]
-    },
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "untitled-page-2"
-        ]
-      },
-      {
-        "group": "Security",
-        "pages": [
-          "untitled-page"
-        ]
-      }
-    ]
+    }
   },
   "logo": {
     "light": "/images/expin.svg",
