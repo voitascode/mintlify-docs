@@ -7,7 +7,10 @@
     "light": "#F67EE3",
     "dark": "#F67EE3"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/fav.svg",
+    "dark": "/images/fav.svg"
+  },
   "navigation": {
     "global": {
       "anchors": [
@@ -51,7 +54,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:work@expirio.cz"
       }
     ],
     "primary": {
@@ -74,9 +77,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/expirioagency",
+      "instagram": "https://www.instagram.com/expirioagency"
     }
   },
   "background": {
@@ -90,6 +92,11 @@
     "library": "tabler"
   },
   "appearance": {
-    "default": "light"
+    "default": "system"
+  },
+  "banner": {
+    "content": "We reveal how the web is hampering your business and what to do about it.",
+    "dismissible": true,
+    "type": "info"
   }
 }
