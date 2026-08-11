@@ -12,14 +12,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Expirio.com",
+          "href": "https://www.expirio.com/",
+          "icon": "newspaper"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Case Studies",
+          "icon": "book-open-cover",
+          "href": "https://www.expirio.com/en-eu/customers"
         }
       ]
     },
@@ -44,7 +44,8 @@
   },
   "logo": {
     "light": "/images/exin-light.svg",
-    "dark": "/images/expin.svg"
+    "dark": "/images/expin.svg",
+    "href": "https://insights.expirio.com/"
   },
   "navbar": {
     "links": [
