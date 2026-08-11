@@ -27,15 +27,14 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index",
-          "quickstart"
+          "index"
         ]
       },
       {
         "group": "Security",
         "pages": [
-          "untitled-page",
-          "untitled-page-3"
+          "security",
+          "security-checklist"
         ]
       },
       "untitled-page-4",
