@@ -122,10 +122,5 @@
   },
   "appearance": {
     "default": "system"
-  },
-  "banner": {
-    "content": "We reveal how the web is hampering your business and what to do about it.",
-    "dismissible": true,
-    "type": "info"
   }
 }
