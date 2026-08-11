@@ -75,8 +75,8 @@
     ]
   },
   "logo": {
-    "light": "/images/exin-light.svg",
-    "dark": "/images/expin.svg",
+    "light": "/images/expin.svg",
+    "dark": "/images/exin-light.svg",
     "href": "https://insights.expirio.com/"
   },
   "navbar": {
