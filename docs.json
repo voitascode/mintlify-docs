@@ -31,7 +31,22 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Security",
+        "pages": [
+          "untitled-page"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/exin-light.svg",
