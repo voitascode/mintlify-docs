@@ -38,18 +38,24 @@
             ]
           },
           {
-            "group": "Security",
+            "group": "Working with Expirio",
             "pages": [
-              "security",
-              "security-checklist"
+              "working-with-expirio/collaboration",
+              "working-with-expirio/before-new-website"
             ]
           },
           {
-            "group": "More",
+            "group": "Topics",
             "pages": [
-              "untitled-page-4",
-              "untitled-page-5",
-              "untitled-page-6"
+              "topics/web-management",
+              "topics/discoverability",
+              "topics/ux-usability",
+              "topics/creating-content",
+              "topics/conversion-optimization",
+              "topics/employer-branding",
+              "topics/security",
+              "topics/security-checklist",
+              "topics/stakeholder-management"
             ]
           }
         ]
@@ -64,10 +70,24 @@
             ]
           },
           {
-            "group": "Bezpečnost",
+            "group": "Spolupráce s Expiriem",
             "pages": [
-              "cs/security",
-              "cs/security-checklist"
+              "cs/working-with-expirio/collaboration",
+              "cs/working-with-expirio/before-new-website"
+            ]
+          },
+          {
+            "group": "Témata",
+            "pages": [
+              "cs/topics/web-management",
+              "cs/topics/discoverability",
+              "cs/topics/ux-usability",
+              "cs/topics/creating-content",
+              "cs/topics/conversion-optimization",
+              "cs/topics/employer-branding",
+              "cs/topics/security",
+              "cs/topics/security-checklist",
+              "cs/topics/stakeholder-management"
             ]
           }
         ]
