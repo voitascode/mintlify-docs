@@ -12,20 +12,6 @@
     "dark": "/images/fav.svg"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Expirio.com",
-          "href": "https://www.expirio.com/",
-          "icon": "newspaper"
-        },
-        {
-          "anchor": "Case Studies",
-          "icon": "book-open-cover",
-          "href": "https://www.expirio.com/en-eu/customers"
-        }
-      ]
-    },
     "languages": [
       {
         "language": "en",
