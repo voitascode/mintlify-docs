@@ -16,7 +16,7 @@
       {
         "language": "en",
         "default": true,
-        "groups": [
+        "pages": [
           {
             "group": "Getting Started",
             "pages": [
@@ -30,19 +30,13 @@
               "working-with-expirio/before-new-website"
             ]
           },
-          {
-            "group": "Topics",
-            "pages": [
-              "topics/web-management",
-              "topics/security",
-              "topics/security-checklist"
-            ]
-          }
+          "topics/security",
+          "topics/security-checklist"
         ]
       },
       {
         "language": "cs",
-        "groups": [
+        "pages": [
           {
             "group": "Začínáme",
             "pages": [
@@ -56,14 +50,8 @@
               "cs/working-with-expirio/before-new-website"
             ]
           },
-          {
-            "group": "Témata",
-            "pages": [
-              "cs/topics/web-management",
-              "cs/topics/security",
-              "cs/topics/security-checklist"
-            ]
-          }
+          "cs/topics/security",
+          "cs/topics/security-checklist"
         ]
       }
     ]
