@@ -34,19 +34,9 @@
             "group": "Topics",
             "pages": [
               "topics/web-management",
-              "topics/discoverability",
-              "topics/ux-usability",
-              "topics/creating-content",
-              "topics/conversion-optimization",
-              "topics/employer-branding",
               "topics/security",
-              "topics/security-checklist",
-              "topics/stakeholder-management"
+              "topics/security-checklist"
             ]
-          },
-          {
-            "group": "Stakeholder Management",
-            "pages": []
           }
         ]
       },
@@ -70,14 +60,8 @@
             "group": "Témata",
             "pages": [
               "cs/topics/web-management",
-              "cs/topics/discoverability",
-              "cs/topics/ux-usability",
-              "cs/topics/creating-content",
-              "cs/topics/conversion-optimization",
-              "cs/topics/employer-branding",
               "cs/topics/security",
-              "cs/topics/security-checklist",
-              "cs/topics/stakeholder-management"
+              "cs/topics/security-checklist"
             ]
           }
         ]
