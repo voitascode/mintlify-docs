@@ -33,7 +33,8 @@
           {
             "group": "Stakeholder Management",
             "pages": [
-              "stakeholder-management/b2b-website-more-than-brochure"
+              "stakeholder-management/b2b-website-more-than-brochure",
+              "stakeholder-management/business-case-for-website"
             ]
           },
           "topics/web-management",
