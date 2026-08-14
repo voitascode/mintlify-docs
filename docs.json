@@ -58,6 +58,13 @@
               "cs/working-with-expirio/before-new-website"
             ]
           },
+          {
+            "group": "Práce se stakeholdery",
+            "pages": [
+              "cs/stakeholder-management/b2b-website-more-than-brochure",
+              "cs/stakeholder-management/business-case-for-website"
+            ]
+          },
           "cs/topics/web-management",
           "cs/topics/security",
           "cs/topics/security-checklist"
